@@ -4,16 +4,16 @@
     justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
+    padding: 10px 275px;
 }
 
 .logo {
-    margin-left: 50px;
+   display: flex;
 }
 
 /* Unordered link list for nav bar */
 .navlinks {
     display: flex;
-    margin-right: 100px;
 }
 
 /* Makes links inline and removes bullets from link list */
@@ -29,4 +29,48 @@
     font-size: 18px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for hero section */
+.herounit {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    padding: 100px 300px;
+}
+
+/* Left side of hero with header, text, and button */
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 150px;
+}
+
+.heroheading {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.herotext {
+    font-size: 18px;
+}
+
+.herobutton {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    border: 0px;
+    width: 125px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+/* Image on right side of hero */
+.heroright {
+    display: flex;
 }
