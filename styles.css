@@ -9,6 +9,7 @@
 
 .logo {
    display: flex;
+   margin-top: 10px;
 }
 
 /* Unordered link list for nav bar */
@@ -73,4 +74,36 @@
 /* Image on right side of hero */
 .heroright {
     display: flex;
+}
+
+/* Below if for the supporting text and images section */
+.support {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 75px;
+}
+
+.supportheader {
+    font-size: 36px;
+    color: #1f2937;
+    justify-content:end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.supportboxes {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.supportitem {
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+    color: #656666;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
 }
